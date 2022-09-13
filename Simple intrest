@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int p,r,si,t;
+	cout<< " enter the principle amount :";
+	cin>>p;
+	cout<< " enter the rate of intrest :";
+	cin>>r;
+	cout<< " enter the time duration :";
+	cin>>t;
+	si=(p*t*r)/100;
+	cout<<" simple intrest"<<si<<endl;
+	return 0;
+}
